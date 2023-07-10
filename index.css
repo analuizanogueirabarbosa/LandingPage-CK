@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.search{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 2em;
+    color: white;
+    text-align: center;
+    outline: none;
+}
+header{
+    backdrop-filter: blur( 13.5px );
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    color: white; 
+}
+.nav-bar li{
+    cursor: pointer;
+}
+.main-box h2{
+    font-size: 2em;
+    margin-left: 6.5em;
+    color: white;
+}
+.main-box h1{
+    margin-left: 2em;
+    margin-top: 2em;
+    font-size: 5em;
+    color: white;
+}
+.box{
+    background-image: url(https://www.calvinklein.com.hk/dw/image/v2/BGLQ_PRD/on/demandware.static/-/Library-Sites-calvin-klein-shared-library/default/dw251c13bd/Jungkook/JK%20Drop%202%20Site%20Refresh%20LP%20desktop2.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.section0{
+    text-align: center;
+    padding: 3em;
+    border: 1px solid black;
+}
+.section1{
+    display: flex;
+    border: 1px solid black;
+    
+}
+.image1{
+    margin-left: 10em;
+    height: 30em;
+    width: 30em;   
+}
+
+.text1{
+    margin-left: 10em;
+}
+.text1 h1{
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 15em;
+}
+.text1 p{
+    margin-right: 15em;
+}
+.text1 button{
+    margin-left: 9em;
+    margin-top: 5em;
+    background-color: transparent;
+    height: 4em;
+    width: 11em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.section2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.image2{
+    margin-right: 10em;
+    height: 30em;
+    width: 30em;
+}
+.text2{
+    margin-left: 10em;
+}
+.text2 h1{
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 10em;
+}
+.text2 p{
+    margin-right: 15em;
+}
+.text2 button{
+    margin-left: 10em;
+    margin-top: 5em;
+    background-color: transparent;
+    height: 4em;
+    width: 11em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.text1 button:hover{
+   background-color: black;
+   color: white;
+}
+.text2 button:hover{
+    background-color: black;
+    color: white;
+}
+.footer h3{
+    color: white;
+}
+.p{
+    color: white;
+}
+.footer{
+    padding: 3em;
+    text-align: center;
+    background-color: black;
+}
+.footer input{
+   background-color: transparent;
+   color: white;
+   text-align: center;
+   height: 3em;
+   cursor: pointer;
+   outline: none;
+}
+.footer button{
+    height: 3em;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.section3{
+    display: flex;
+    border: 1px solid black;
+}
+.image3{
+    margin-left: 10em;
+    height: 30em;
+    width: 30em;   
+}
+.text3{
+    margin-left: 10em;
+    
+}
+.text3 h1{
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 11em;
+    
+    }
+.text3 p{
+    margin-right: 15em;
+}
+.text3 button{
+    margin-left: 13em;
+    margin-top: 5em;
+    background-color: transparent;
+    height: 4em;
+    width: 11em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.text3 button:hover{
+    background-color: black;
+    color: white;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: gray;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid gray;  /* creates padding around scroll thumb */
+  }
+
+  @media (max-width:1200PX){
+    .section1{
+        display: flex;
+        flex-direction: column;
+        
+        }
+        .image1{
+            margin: auto;
+            /* width: 100%; */
+        }
+        .text1{
+            
+            text-align: center;
+            white-space: nowrap;
+            margin-left: 0.7em; 
+        }
+        .button1{
+          margin-right: 20em;
+          margin-bottom: 2em;
+          
+        }
+        .text1 h1{
+          
+            margin-left: 10em;
+        }
+        .text1 p{
+            margin-left: 6em;
+        }
+        .section2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .image2{
+            margin: auto;
+            /* width: 100%; */
+        }
+        .text2{
+            text-align: center;
+             white-space: nowrap;
+            margin: auto;
+        }
+        .text2 h1{
+            margin-left: 3em;
+        }
+        .text2 p{
+            
+            margin-left: 6em;
+        }
+        .button2{
+            margin-right: 21em;
+            margin-bottom: 2em;
+            
+        }
+        .section3{
+            display: flex;
+            flex-direction: column;
+        }
+        .image3{
+
+            margin: auto;
+            /* width: 100%; */
+        }
+        .text3{
+            text-align: center;
+            white-space: nowrap;
+            margin: auto; 
+           
+        }
+        .text3 h1{
+            margin-left: 3em;
+        }
+        .text3 p{
+           margin-left: 6em;
+        }
+        .button3{
+            margin-right: 25em;
+            margin-bottom: 2em;
+        }
+        
+        
+    }
+
