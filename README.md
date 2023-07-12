@@ -1,6 +1,6 @@
 # LandingPage-CK 🫶
 - Landing page da marca calvin klein com efeito parallax
-![ck1](https://github.com/analuizanogueirabarbosa/LandingPage-CK/assets/124695446/3a91afb8-e4fb-4298-859f-df5ce499d3f0)
+![ck1](https://github.com/analuizanogueirabarbosa/LandingPage-CK/assets/124695446/cc4adc6c-97f7-4a4c-baf9-cfea4ab1ae84)
 
 ![ck2](https://github.com/analuizanogueirabarbosa/LandingPage-CK/assets/124695446/88086fba-fd58-46c5-bd17-7d8d253f1834)
 
